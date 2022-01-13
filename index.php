@@ -1,45 +1,68 @@
-<!doctype html> 
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
 
-<html>
-	<head>
+</head>
+<body style="background-color: #e8e4c9;">
+<!-- partial:index.partial.html -->
+	<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-6 text-center align-self-center py-5">
+					<img width = 400 src="logo.png"/>
+				</div>
+					<div class="col-6 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Log In</h4>
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" class="btn mt-4">Login</a>
+                            				<p class="mb-0 mt-4 text-center">Don't have an account? <a href="#0" style="color: #ffeba7;">Sign Up</a></p>
+				      					</div>
+			      					</div>
+			      				</div>
+								<div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Sign Up</h4>
+											<div class="form-group">
+												<input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
+												<i class="input-icon uil uil-user"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" class="btn mt-4">submit</a>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
 
-		<title>
-			Lake Forest College Library
-		</title>
-
-		<style type="text/css">
-			img{max-height: 200px;
-				max-width: 200px;
-				position: relative;	
-				left:40%;
-				padding-left: 50px;
-				}
-			h2{position: relative;
-				left:40%;}
-			ul {
- 			  	 list-style-type: none;
-   			  	 margin: 0;
-    			 padding: 0;
-				}
-			li{display: inline;
-				float: left;}
-			li a{
-    			display: block;
-    			padding: 8px;
-    			background-color:grey;
-    		}		
-		</style>
-		
-		
-	</head>
-	<body>
-		<h2>Lake Forest College Library</h2>
-		<img src="logo.png">
-		<ul>
-  			<li><a href="">Home</a></li>
-  			<li><a href="">Sign Up</a></li>
-  			<li><a href="">Member Login</a></li>
-  			<li><a href="log_in.php">Admin Login</a></li>
-		</ul>
-	</body>
+</body>
 </html>
